@@ -1,0 +1,25 @@
+{
+  "short_name": "THONIC AGENCEMENT App",
+  "name": "THONIC AGENCEMENT",
+  "icons": [
+    {
+      "src": "Carte entreprise 3.png",
+      "type": "image/png",
+      "sizes": "1752x1000"
+    },
+    {
+      "src": "Carte entreprise 3.png",
+      "type": "image/png",
+      "sizes": "1752x1000"
+    },
+    {
+      "src": "Carte entreprise 3.png",
+      "type": "image/png",
+      "sizes": "1752x1000"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
