@@ -1,7 +1,62 @@
-# But Site React Express 1
+# Site React Express 1
 
-Ce projet marque mes débuts dans la création de sites web impliquant l'utilisation de React et Express. Je l'ai réalisé suite à la demande de mon père pour son entreprise. Après avoir travaillé sur plusieurs projets liés au langage C au sein de mon école (42), j'avais ressenti le besoin de diversifier mes compétences et de prendre du recul par rapport à la routine de travailler exclusivement avec ce langage. Au départ, je n'avais aucune expérience avec Express ou React, mais ce projet m'a offert l'opportunité d'explorer de nouveaux horizons et de me libérer de cette monotonie.
+## Project Purpose
+The **Site React Express 1** project marks an important step in my web development journey, marking my first experience with **React** and **Express**. This project was created at the request of my father for his business. After working on several **C language** projects at my school (42), this project allowed me to diversify my skills, embrace new technologies, and step back from the routine of working exclusively with C.
 
-# Ce que j'en tire
+With no prior experience in React or Express, I took on this project to explore new horizons and broaden my skill set.
 
-Comme mentionné précédemment, je n'avais aucune expérience préalable en React ou Express. En réalisant ce projet, j'ai entamé l'exploration d'un nouveau domaine de l'informatique. Grâce à cela, j'ai appris à créer un site web responsive, bien que j'aie encore découvert de nouvelles méthodes que je n'ai pas encore implémentées dans le site. J'ai également abordé le back-end de manière très simple, et surtout, j'ai eu l'occasion de me réacquérir avec JavaScript tout en découvrant Express, React, et le JSX. Bien sûr, je n'ai pas l'intention de prétendre que je suis devenu un expert ; il me reste encore tellement à apprendre. Je pense avoir touché seulement une petite partie de ce qu'il est possible de réaliser avec ces technologies.
+## Key Takeaways
+Through this project, I was able to:
+- Learn to design a **responsive website**.
+- Familiarize myself with **backend development** through an initial, simple approach using **Express**.
+- Rediscover **JavaScript** while learning the basics of **React**, **Express**, and **JSX**.
+  
+This project has been a learning exercise, and there are still many areas left to explore to deepen my knowledge of these technologies. I’ve only scratched the surface of what React and Express can offer, but I have gained a strong foundation to continue progressing.
+
+## Technologies Used
+- **React**: for creating the user interface and adding interactivity to the site.
+- **Express**: for server-side development and handling backend requests.
+- **JavaScript (ES6)**: as the main language for front-end and back-end logic.
+- **HTML5 & CSS3**: for responsive design and structuring the site.
+
+## Features
+- Responsive site that adapts to different screen sizes.
+- Simple navigation with a separated front-end/back-end architecture.
+- Basic backend handling requests via Express.
+
+## Installation
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/username/project-name.git
+   cd project-name
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   # In the server folder
+   cd server
+   npm install
+
+   # In the client folder
+   cd ../client
+   npm install
+   ```
+
+3. **Start the server**:
+   ```bash
+   cd server
+   npm start
+   ```
+
+4. **Start the client**:
+   ```bash
+   cd ../client
+   npm start
+   ```
+
+The site will be available at `http://localhost:3000` (default).
+
+## Conclusion
+This project is an introductory step into the world of full-stack web development. It serves as a foundation for further exploring and expanding the use of **React** and **Express** and diving into more advanced features of these technologies.
