@@ -12,7 +12,7 @@ export default function Realisation() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `http://192.168.1.14:5000/getRealisation/${dernierSegment}`
+          `http://localhost:5001/getRealisation/${dernierSegment}`
         );
         const data = await response.json();
         setFiles(data);

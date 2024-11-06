@@ -7,7 +7,7 @@ export default function Home() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://192.168.1.14:5000/realisations");
+        const response = await fetch("http://localhost:5001/realisations");
         const data = await response.json();
         setRandomFileName(getRandomFileName(data));
       } catch (error) {
@@ -66,7 +66,7 @@ export default function Home() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const baseUrl = "http://192.168.1.14:5000";
+  const baseUrl = "http://localhost:5001";
 
   const sendEmail = async (event) => {
     event.preventDefault();

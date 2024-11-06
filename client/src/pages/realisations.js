@@ -7,7 +7,7 @@ export default function Realisations() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://192.168.1.14:5000/realisations");
+        const response = await fetch("http://localhost:5001/realisations");
         const data = await response.json();
         setFiles(data);
       } catch (error) {
